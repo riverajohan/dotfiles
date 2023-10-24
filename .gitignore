@@ -1,0 +1,8 @@
+coc
+gcloud
+gh
+github-copilot
+lvim/plugin/
+lvim/session/
+raycast/
+*.DS_Store
