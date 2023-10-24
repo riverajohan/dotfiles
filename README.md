@@ -1,5 +1,5 @@
 # Dotfiles
-Personal config files based around lvim as editor
+Personal config files based around lvim as neovim editor
 
 ## Fonts
 ```
