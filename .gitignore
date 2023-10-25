@@ -4,5 +4,6 @@ gh
 github-copilot
 lvim/plugin/
 lvim/session/
+nvim/session/
 raycast/
 *.DS_Store
