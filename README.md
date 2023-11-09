@@ -8,3 +8,6 @@ brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask font-cascadia-code
 ```
 
+### Misc
+Lazygit config dir: `cd ~/Library/Application\ Support/lazygit`
+

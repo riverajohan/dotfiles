@@ -23,26 +23,26 @@ require('material').setup({
     -- "eyeliner",
     -- "fidget"
     -- "flash"
-    -- "gitsigns",
+    "gitsigns",
     -- "harpoon",
     -- "hop",
     -- "illuminate",
     -- "indent-blankline",
     -- "lspsaga",
-    -- "mini",
+    "mini",
     -- "neogit",
     -- "neotest",
     -- "neorg",
-    -- "noice"
+    -- "noice",
     -- "nvim-cmp",
     -- "nvim-navic",
-    -- "nvim-tree",
+    "nvim-tree",
     -- "nvim-web-devicons",
     -- "rainbow-delimiters",
     -- "sneak",
-    -- "telescope",
-    -- "trouble",
-    -- "which-key",
+    "telescope",
+    "trouble",
+    "which-key",
   },
 
   disable = {

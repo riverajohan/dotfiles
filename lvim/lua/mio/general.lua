@@ -26,8 +26,8 @@ lvim.builtin.bufferline.options.numbers = "ordinal"
 lvim.builtin.bufferline.options.always_show_bufferline = true
 lvim.builtin.bufferline.options.hover = { enabled = true, delay = 100, reveal = { 'close' } }
 lvim.builtin.bufferline.options.show_close_icon = true
-lvim.builtin.bufferline.options.tab_size = 18
-lvim.builtin.bufferline.options.max_name_length = 28
+lvim.builtin.bufferline.options.tab_size = 14
+lvim.builtin.bufferline.options.max_name_length = 24
 lvim.builtin.bufferline.highlights.buffer_selected = {
   fg = 'yellow',
 }
