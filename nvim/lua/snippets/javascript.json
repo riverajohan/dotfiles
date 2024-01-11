@@ -1,8 +1,0 @@
-{
-  "Print To Console": {
-    "prefix": "cnl",
-    "body": [
-      "console.log('%cDEBUG ${1}', 'background:blue;border-radius:2px;', ${0});"
-    ]
-  }
-}
