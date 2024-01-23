@@ -2,7 +2,7 @@ return {
   "norcalli/nvim-colorizer.lua",
   event = "VeryLazy",
   config = function()
-    require("colorizer").setup({ "css", "scss", "html", "javascript", "vue", "ts" }, {
+    require("colorizer").setup({ "*" }, {
       RGB = true, -- #RGB hex codes
       RRGGBB = true, -- #RRGGBB hex codes
       RRGGBBAA = true, -- #RRGGBBAA hex codes

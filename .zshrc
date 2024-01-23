@@ -45,6 +45,7 @@ alias cneutron="cd ~/projects/neutron-cnet"
 alias bruno="cd ~/projects/bruno"
 alias brunoapi="npm run start:api"
 alias brunoflow="npm run flow"
+alias fwd="cd ~/projects/fwd-nextjs"
 
 alias dev="npm run dev"
 alias c="clear"

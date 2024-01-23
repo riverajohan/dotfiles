@@ -11,3 +11,6 @@ brew install --cask font-cascadia-code
 ### Misc
 Lazygit config dir: `cd ~/Library/Application\ Support/lazygit`
 
+Neovim
+set file type of buffer `set ft={type}`
+
