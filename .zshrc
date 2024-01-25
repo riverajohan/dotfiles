@@ -46,6 +46,8 @@ alias bruno="cd ~/projects/bruno"
 alias brunoapi="npm run start:api"
 alias brunoflow="npm run flow"
 alias fwd="cd ~/projects/fwd-nextjs"
+alias wpsites="cd ~/'Local Sites'"
+alias bestcolleges="cd ~/'Local Sites'/bestcollegescom/app/public"
 
 alias dev="npm run dev"
 alias c="clear"

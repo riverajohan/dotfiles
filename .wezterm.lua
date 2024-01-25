@@ -12,7 +12,8 @@ end
 
 -- This is where you actually apply your config choices
 
-config.font = wezterm.font("JetBrainsMono Nerd Font")
+config.font_size = 12.7
+config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Medium" })
 config.font_rules = {
 	{
 		intensity = "Bold",
@@ -51,8 +52,8 @@ config.window_padding = {
 
 config.hide_tab_bar_if_only_one_tab = true
 config.tab_bar_at_bottom = true
-config.color_scheme = "Apprentice"
-config.dpi = 192
+config.color_scheme = "Catppuccin Frappe"
+config.dpi = 144
 
 -- and finally, return the configuration to wezterm
 return config
