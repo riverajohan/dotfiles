@@ -70,10 +70,15 @@ vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
 
 -- new file
-vim.keymap.set("n", "<leader>fn", "<cmd>enew<cr>", { desc = "New File" })
-vim.keymap.set("n", "<leader>fy", ":let @+=@%<>", { desc = "Copy File Path" })
+vim.keymap.set("n", "<leader>fn", "<CMD>enew<CR>", { desc = "New File" })
+vim.keymap.set("n", "<leader>fy", ":let @+=@%<CR>", { desc = "Copy File Path" })
 
 -- delete default keymaps
+-- vim.keymap.del("n", "<leader>qd")
+-- vim.keymap.del("n", "<leader>ql")
+-- vim.keymap.del("n", "<leader>qq")
+-- vim.keymap.del("n", "<leader>qs")
+
 vim.keymap.del("n", "<leader>ww")
 vim.keymap.del("n", "<leader>wd")
 vim.keymap.del("n", "<leader>w-")
