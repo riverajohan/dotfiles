@@ -1,12 +1,24 @@
 return {
   {
     "nvim-telescope/telescope.nvim",
+    dependencies = {
+      {
+        "nvim-telescope/telescope-fzf-native.nvim",
+        build = "make",
+        enabled = vim.fn.executable("make") == 1,
+        config = function()
+          Util.on_load("telescope.nvim", function()
+            require("telescope").load_extension("fzf")
+          end)
+        end,
+      },
+    },
     keys = {
       -- disable the keymap to grep files
       { "<leader>/", false },
       -- change a keymap
       { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Find Files" },
-      { "<leader><leader>", "<Cmd>Telescope frecency<CR>", desc = "Find File (Frecency)" },
+      { "<leader><leader>", "<Cmd>Telescope frecency workspace=CWD<CR>", desc = "Find File (Frecency)" },
     },
     opts = function()
       local actions = require("telescope.actions")
@@ -47,10 +59,10 @@ return {
           end,
           mappings = {
             i = {
-              ["<C-n>"] = actions.move_selection_next,
-              ["<C-p>"] = actions.move_selection_previous,
-              ["<C-j>"] = actions.cycle_history_next,
-              ["<C-k>"] = actions.cycle_history_prev,
+              ["<C-j>"] = actions.move_selection_next,
+              ["<C-k>"] = actions.move_selection_previous,
+              ["<C-n>"] = actions.cycle_history_next,
+              ["<C-p>"] = actions.cycle_history_prev,
               ["<c-t>"] = open_with_trouble,
               ["<a-t>"] = open_selected_with_trouble,
               ["<a-i>"] = find_files_no_ignore,
